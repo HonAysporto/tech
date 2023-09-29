@@ -145,6 +145,32 @@ main .main1 .main-img{
     
 }
 
+.venue{
+    background-image: linear-gradient(to right, #C38E0E , #5576CF 550px);
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 7px;
+}
+
+.venue h1{
+    font-size: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.venue p{
+    font-size: 27px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
 
 
 
