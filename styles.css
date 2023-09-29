@@ -169,6 +169,38 @@ main .main1 .main-img{
     font-weight: bold;
 }
 
+.details{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.details b{
+
+}
+
+.details img{
+
+}
+
+.details  h1{
+    font-size: 60px;
+    color: #FDB915;
+    margin-bottom: 0px;
+}
+
+.details  h2{
+    font-size: 90px;
+    color: #224093;
+    margin-top: -20px;
+    font-weight: bolder;
+    border-bottom: 3px solid #FDB915;
+    padding-bottom: 6px;
+}
+
+
+
+
 
 
 
