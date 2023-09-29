@@ -1,0 +1,150 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding-bottom: 500px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 18px;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 2px 2px 5px rgb(223, 222, 222);
+}
+
+header .left{
+ 
+    height: 30px;
+    margin-left: 70px;
+
+}
+
+header .left img{
+    width: 100%;
+    height: 100%;
+}
+
+header .right{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+
+}
+
+header .right a{
+    color: #224093;
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 30px;
+    font-weight: bold;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header .right .btn{
+   font-size: 14px; 
+   padding: 13px 20px;
+   border-radius: 5px;
+   background-color: #FDB915;
+   box-shadow: 2px 2px 5px rgb(201, 199, 199);
+   font-weight: bold;
+
+}
+
+
+/* main */
+
+.main1{
+    margin-top: 95px;
+    /* border: 1px solid red; */
+    padding-left: 42px;
+    padding-right: 32px;
+}
+
+main .main1 .main-img{
+    height: 340px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+
+.main1 .main1-div1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main1 .main1-div1 p {
+    color: #224093;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main1 .main1-div1 .img2 {
+    color: gray;
+   width: 287px;
+   border-bottom: 2px solid gray;
+
+   
+}
+
+
+.main1 .main1-div1 .star {
+  
+    padding: 5px;
+    border: 1px solid #00A877;
+    border-radius: 50px;
+
+   
+}
+
+.main1 .main1-btn-div{
+    display: flex;
+    margin-top: 40px;
+}
+
+.main1-btn-div .a{
+    
+    font-size: 20px;
+    color: #224093;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FDB915;
+    text-align: center;
+   padding: 10px 230px;
+   margin-right: 40px;
+    
+}
+
+.main1-btn-div .b{
+    
+    font-size: 20px;
+    color: #224093;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid #224093;
+    text-align: center;
+   padding: 10px 180px;
+   cursor: pointer;
+    
+}
+
+
+
+
